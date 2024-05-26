@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.translate.addLangs(['en', 'fr']);
+    this.translate.addLangs(['en', 'fr','es']);
     this.selected_lang = localStorage.getItem('userLang');
     this.translate.use(this.selected_lang || 'en');
   }
