@@ -3,41 +3,61 @@ Description:
 You are required to enhance an existing Angular application by integrating the ng-translate library to support multiple languages. The application should allow users to switch between different languages, and all the text content should be dynamically translated based on the user's language preference.
 Requirements:
 =============
-[_] Setup ng-translate: Install the ng-translate library and configure it in
-your Angular project. Set up the necessary dependencies and language files. 
+[x] Setup ng-translate: Install the ng-translate library and configure it in
+your Angular project. Set up the necessary dependencies and language files.
 
 [_] Language Selection: Implement a language selection feature that allows users to
 switch between different languages. You can use a dropdown menu, buttons, or
 any other UI element to facilitate language selection.
+                                                            DIFF :: EASY
 
 [_] Language Files: Create language files for at least two languages (e.g., English and Spanish).
 These files should contain key-value pairs where the keys represent the
 original English text and the values represent the translations in the
-respective languages. 
+respective languages.
+                                                            DIFF :: EASY
 
 [_] Translate Text Content: Replace all the static text
 content in your application's components, templates, and services with the
 translations from the language files. Use the appropriate ng-translate
-directives or pipes to dynamically translate the text. 
+directives or pipes to dynamically translate the text.
+                                                            DIFF :: EASY
 
 [_] Language Persistence: Implement a mechanism to persist the user's language preference.
 This can be achieved by storing the selected language in local storage or using
 a cookie. Retrieve and apply the user's language preference when they revisit
-the application. 
+the application.
+                                                            DIFF :: DOABLE
 
 [_] Language Switching: Ensure that when the user switches the
 language, all the text content in the application updates accordingly. This
-should happen in real-time without requiring a page reload. 
+should happen in real-time without requiring a page reload.
+                                                            DIFF :: DOABLE
 
 [_] Dynamic Language Addition: Implement a feature that allows the addition of new
 languages without modifying the existing codebase. This can be achieved by
 providing a mechanism to load additional language files dynamically.
+Desc      "Simply put don't refresh the page when a user selects a lang"
+                                                            DIFF :: IDK
 
 [_] Error Handling: Handle cases where translations are missing for certain keys or if
 there are issues loading the language files. Display meaningful error messages
 or fallback to a default language in such scenarios.
+                                                            DIFF :: DOABLE
 
 Steps
 ======
 
-[_] Read about ng-translate
+[x] Read about ng-translate
+[x] Set up a basic use example first
+
+[_] Create a simple html page that has a simple minimal menu
+[_] A button or two then offer the language server
+
+                              UI EXAMPLE
+                            ==============
+      Version                                            language
+                          The Simple website
+                           Some User Option
+                           Some User Option2
+                              A button
