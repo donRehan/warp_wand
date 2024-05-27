@@ -1,27 +1,12 @@
-<!--<div>{{ 'HOME.HELLO {value}' | translate: {value: 'World !'} }}</div>-->
-<!--<div>{{ 'HOME.TITLE' | translate }}</div>
-
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>landing page</title>
-	</head>
-
 	<body>
 		<div class="area-a">
 
-			<div class="header" style="margin-bottom: 100px">
+			<div class="header" >
 				<ul>
-					<li style="color: #F9FAF8; font-size: 24px; font-weight: 600;">Header Logo</li>
+					<li class="header_logo" >Header Logo</li>
 				</ul>
 
-				<ul style="color: #E5E7EB; font-size: 18px; gap: 25px;">
+				<ul class="headers" >
 					<li>
             <select #langSelect (change)="changeLang(langSelect.value)">
               <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
@@ -39,14 +24,12 @@
 
 				<div class="A">
 					<h1
-					style="margin-bottom: 10px;"
+          class="title"
 						>
             {{ 'HOME.TITLE' | translate }}
 					</h1>
           {{ 'HOME.BODY' | translate }}
-					<button style="width: 140px; padding-top: 5px; padding-bottom: 5px;
-					background-color: #3882F6; border-width: 0px; border-radius: 8px; font-size: 18px; font-weight: bold;
-					color: #E5E7EB;margin-top: 10px;"
+					<button class="signup_btn"
 						>
           {{ 'HOME.SIGNUP' | translate }}
 					</button>
@@ -59,5 +42,3 @@
 		</div>
 
 	</body>
-
-</html>

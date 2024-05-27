@@ -4,6 +4,7 @@
     "SELECT": "Changer la langue",
     "BODY": "Ceci est un exemple de traduction avec ngx-translate.",
     "HEADER1" : "Header un",
+    "HEADER2": "Header deux",
     "SIGNUP": "Inscription"
   }
 }

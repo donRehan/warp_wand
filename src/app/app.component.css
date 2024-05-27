@@ -23,12 +23,18 @@ ul {
 	padding-bottom: 100px;
 }
 
+.header_logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 600;
+}
 .header {
 	display: flex;
 	justify-content: space-between;
 	flex: 0 0;
 	padding-left: 120px;
 	padding-right: 120px;
+  margin-bottom: 100px;
 }
 
 a {
@@ -59,4 +65,26 @@ h1 {
 	color: #E5E7EB;
 	padding-left: 120px;
 	padding-right: 120px;
+}
+
+.headers {
+  color: #E5E7EB;
+  font-size: 18px;
+  gap: 25px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.signup_btn {
+  width: 140px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3882F6;
+  border-width: 0px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #E5E7EB;margin-top: 10px;
 }
