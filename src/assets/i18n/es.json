@@ -1,6 +1,10 @@
 {
   "HOME": {
     "TITLE": "¡Hola Angular con ngx-translate!",
-    "SELECT": "Cambiar idioma"
+    "SELECT": "Cambiar idioma",
+    "BODY": "¡Este es el cuerpo de la página de inicio!",
+    "HEADER1": "Hola",
+    "HEADER2": "Mundo",
+    "SIGNUP": "Regístrate"
   }
 }

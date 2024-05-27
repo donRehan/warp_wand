@@ -39,7 +39,7 @@ languages without modifying the existing codebase. This can be achieved by
 providing a mechanism to load additional language files dynamically.
                                                             DIFF :: IDK
 
-[_] Error Handling: Handle cases where translations are missing for certain keys or if
+[x] Error Handling: Handle cases where translations are missing for certain keys or if
 there are issues loading the language files. Display meaningful error messages
 or fallback to a default language in such scenarios.
                                                             DIFF :: DOABLE
